@@ -68,21 +68,19 @@
         app:layout_constraintTop_toTopOf="@+id/textView" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="142dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="732dp"
+        android:id="@+id/imageView4"
+        android:layout_width="149dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="84dp"
         android:adjustViewBounds="false"
         android:cropToPadding="false"
-        android:foreground="@drawable/logo_blue"
+        android:foreground="@drawable/logo_lblue"
         android:scaleType="center"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.814" />
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <TextView
         android:id="@+id/textView2"
